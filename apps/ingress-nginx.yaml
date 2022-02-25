@@ -4,12 +4,7 @@ metadata:
   name: ingress-nginx 
   namespace: flux-system 
 spec:
-  install:
-    remediation: 
-      retries: 3
-  upgrade:
-    remediation:
-      retries: 3
+  timeout: 10m
   interval: 5m
   chart:
     spec:
