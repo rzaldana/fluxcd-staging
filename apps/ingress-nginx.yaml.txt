@@ -10,7 +10,6 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: ingress-nginx
-      version: '>4.0.0'
   interval: 1m0s
   targetNamespace: staging
 
